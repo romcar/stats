@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Grid from 'styled-components-grid';
-
+import GridWrapper from '../../styledComponents/GridWrapper/Wrapper';
 import Nav from '../../components/Nav/Nav';
 import SideBar from '../../components/SideBar/SideBar';
 import Input from '../../components/Input/Input';
+import Todos from '../../components/Todos/Todos';
 
 class App extends Component {
   constructor(props) {
@@ -13,12 +13,13 @@ class App extends Component {
   }
 
   render() {
-    return (<div>
+    return (<GridWrapper>
       <Nav />
       <SideBar />
       <Input />
-      <div>other things</div>
-    </div>);
+      {/* <Todos /> */}
+      {/* <div>other things</div> */}
+    </GridWrapper>);
   }
 }
 
