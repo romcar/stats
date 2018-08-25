@@ -5,7 +5,7 @@ export default () => {
   return (
     <Fragment>
       <StyledInput />
-      <Button type="submit" buttonText={'send'} />
+      {/* <Button type="submit" buttonText={'send'} /> */}
     </Fragment>
   )
 }
