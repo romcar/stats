@@ -17,7 +17,7 @@ class App extends Component {
       <Nav />
       <SideBar />
       <Input />
-      {/* <Todos /> */}
+      <Todos />
       {/* <div>other things</div> */}
     </GridWrapper>);
   }
