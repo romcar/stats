@@ -2,8 +2,6 @@ import styled, { keyframes } from 'styled-components';
 
 const sizeIn = keyframes`
   0% { width: 2vw }
-  25% {width: 2vw};
-  50% {width: 6vw }
   100% { width: 12vw}
 `;
 
