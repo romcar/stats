@@ -10,6 +10,6 @@ export default styled.div`
   float: left;
   ${'' /* display: inline-block; */}
   :hover {
-    width: 20vw;
+    width: 15vw;
   }
 `;

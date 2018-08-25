@@ -7,6 +7,6 @@ export default styled.a`
   float: right;
   margin: ${props => (props.margin) || '0.5em'};
   :hover {
-    color: ${colors.link_hover}
+    color: ${colors['link--hover']}
   }
 `;
