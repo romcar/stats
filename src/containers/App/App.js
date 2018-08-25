@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Grid from 'styled-components-grid';
 
 import Nav from '../../components/Nav/Nav';
 import SideBar from '../../components/SideBar/SideBar';
