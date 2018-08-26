@@ -10,6 +10,7 @@ export default styled.textarea`
   border: 1px solid ${colors.background};
   overflow: hidden;
   transition: width 0.67s, height 0.3s;
+  position: absolute;
 
   ${'' /* Location of input area */}
   grid-row-start: 2;

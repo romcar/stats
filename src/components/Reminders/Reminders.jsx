@@ -1,10 +1,11 @@
 import React from 'react'
+import StyledReminder from '../../styledComponents/StyledReminder/StyledReminder';
 
 const Reminders = () => {
   return (
-    <div>
+    <StyledReminder>
       Watch it pudding!
-    </div>
+    </StyledReminder>
   )
 }
 

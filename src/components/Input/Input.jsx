@@ -1,11 +1,13 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import StyledInput from '../../styledComponents/StyledInput/StyledInput';
-import Button from '../Button/Button';
+import Wrapper from '../../styledComponents/StyledInput/Wrapper';
+
+// import Button from '../Button/Button';
 export default () => {
   return (
-    <Fragment>
+    <Wrapper>
       <StyledInput />
       {/* <Button type="submit" buttonText={'send'} /> */}
-    </Fragment>
+    </Wrapper>
   )
 }
