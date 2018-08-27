@@ -22,7 +22,7 @@ export default styled.textarea`
   :hover:not(:focus) {
     grid-row-end: 4;
     grid-column-end: 7;
-    width: 20vw;
+    width: 40vw;
     transition-delay: 200ms;
     height: 3vh;
     overflow-y: scroll;
@@ -32,7 +32,7 @@ export default styled.textarea`
     box-shadow: none;
     grid-row-end: 4;
     grid-column-end: 7;
-    width: 20vw;
+    width: 40vw;
     ${'' /* removes the blue halo on focus */}
     outline: none;
     height: 3vh;

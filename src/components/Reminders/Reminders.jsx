@@ -1,11 +1,18 @@
 import React from 'react'
-import StyledReminder from '../../styledComponents/StyledReminder/StyledReminder';
-
+import StyledReminders from '../../styledComponents/StyledReminders/StyledReminders';
+import Reminder from './Reminder/Reminder';
 const Reminders = () => {
   return (
-    <StyledReminder>
-      Watch it pudding!
-    </StyledReminder>
+    <StyledReminders>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+      <Reminder>Watch it pudding!</Reminder>
+    </StyledReminders>
   )
 }
 

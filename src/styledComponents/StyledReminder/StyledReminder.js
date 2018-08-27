@@ -2,13 +2,8 @@ import styled from 'styled-components';
 import colors from '../index';
 
 export default styled.li`
-  border: 1px solid ${colors.background};
-  border-radius: 1em;
-
-  grid-row-start : 4;
-  grid-row-end : 13;
-  grid-column-start : 2;
-  grid-column-end : 13;
-
-
+  padding: 0.25em;
+  height: 6vh;
+  box-shadow: 0.25em 0.25em 0.25em ${colors.shadow};
+  margin-top: 0.5em;
 `;
